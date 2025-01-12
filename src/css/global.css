@@ -1,0 +1,89 @@
+:root {
+    --primary-bg-color: #2c3e50;
+    --header-bg-color: #34495e;
+    --highlight-color: #e67e22;
+    --text-color: #ecf0f1;
+    --event-bg-color: rgba(255, 255, 255, 0.2);
+    --odierno-bg-color: rgba(0, 255, 255, 0.2);
+    --border-radius: 10px;
+    --transition-speed: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: var(--header-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10000;
+    padding: 0 20px;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header .left,
+.header .right {
+    display: flex;
+    align-items: center;
+}
+
+.header .left i,
+.header .right i {
+    font-size: 25px;
+    color: var(--highlight-color); 
+    margin-right: 15px; 
+    transition: transform var(--transition-speed);
+}
+
+.header .left .title {
+    font-size: 25px;
+    color: var(--highlight-color); 
+}
+
+.header .middle .menu {
+    display: flex;
+    list-style: none;
+}
+
+.header .middle .menu li {
+    padding: 15px 20px;
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+}
+
+.header .middle .menu li:hover {
+    background-color: #1abc9c;
+    border-radius: var(--border-radius);
+    transform: scale(1.05);
+}
+
+.header .middle .menu li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    height: calc(100vh - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 75px; 
+}
+

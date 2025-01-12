@@ -130,7 +130,7 @@ function startCountdown(event, counterDisplay, isTomorrow) {
         } else {
             const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000 + 1);
+            const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
             counterDisplay.innerHTML = `${hours}h ${minutes}m ${seconds}s`;
         }
     }, 1000);

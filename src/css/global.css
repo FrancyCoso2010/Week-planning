@@ -79,11 +79,10 @@ body {
 
 .container {
     width: 100%;
-    height: calc(100vh - 75px);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-top: 75px; 
 }
 

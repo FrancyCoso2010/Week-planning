@@ -22,13 +22,6 @@
             <i class="fa-solid fa-bell"></i>
             <h1 class="title">Orologio</h1>
         </div>
-        <!-- <nav class="middle">
-            <ul class="menu">
-                <li><a href="#">Prossimo suono</a></li>
-                <li id="toggleButton"><a href="#">Orario odierno</a></li>
-                <li><a href="#">Orario settimanale</a></li>
-            </ul>
-        </nav> -->
         <div class="right">
             <a href=""><i class="fa-solid fa-gear"></i></a>
             <a href="../index.html"><i class="fa-solid fa-home"></i></a>
@@ -37,10 +30,77 @@
 
     <main class="container">
         <div class="center">
+            <table class="editor-table" id="editor-table">
+                <tr class="table-header">
+                    <th class="header-cell">Lunedì</th>
+                    <th class="header-cell">Martedì</th>
+                    <th class="header-cell">Mercoledì</th>
+                    <th class="header-cell">Giovedì</th>
+                    <th class="header-cell">Venerdì</th>
+                    <th class="header-cell">Sabato</th>
+                    <th class="header-cell">Domenica</th>
+                </tr>
+                <tr>
+                    <td class="cell" id="monday">
+                        <div class="input-row">
+                            <input type="text" name="eventName" placeholder="Nome evento">
+                            <input type="time" name="eventStart" placeholder="Inizio">
+                            <input type="time" name="eventEnd" placeholder="Fine">
+                        </div>
+                    </td>
+                    <td class="cell" id="tuesday">
+                        <div class="input-row">
+                            <input type="text" name="eventName" placeholder="Nome evento">
+                            <input type="time" name="eventStart" placeholder="Inizio">
+                            <input type="time" name="eventEnd" placeholder="Fine">
+                        </div>
+                    </td>
+                    <td class="cell" id="wednesday">
+                        <div class="input-row">
+                            <input type="text" name="eventName" placeholder="Nome evento">
+                            <input type="time" name="eventStart" placeholder="Inizio">
+                            <input type="time" name="eventEnd" placeholder="Fine">
+                        </div>
+                    </td>
+                    <td class="cell" id="thursday">
+                        <div class="input-row">
+                            <input type="text" name="eventName" placeholder="Nome evento">
+                            <input type="time" name="eventStart" placeholder="Inizio">
+                            <input type="time" name="eventEnd" placeholder="Fine">
+                        </div>
+                    </td>
+                    <td class="cell" id="friday">
+                        <div class="input-row">
+                            <input type="text" name="eventName" placeholder="Nome evento">
+                            <input type="time" name="eventStart" placeholder="Inizio">
+                            <input type="time" name="eventEnd" placeholder="Fine">
+                        </div>
+                    </td>
+                    <td class="cell" id="saturday">
+                        <div class="input-row">
+                            <input type="text" name="eventName" placeholder="Nome evento">
+                            <input type="time" name="eventStart" placeholder="Inizio">
+                            <input type="time" name="eventEnd" placeholder="Fine">
+                        </div>
+                    </td>
+                    <td class="cell" id="sunday">
+                        <div class="input-row">
+                            <input type="text" name="eventName" placeholder="Nome evento">
+                            <input type="time" name="eventStart" placeholder="Inizio">
+                            <input type="time" name="eventEnd" placeholder="Fine">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="button-container">
+                <button id="saveEventsButton">Save Events</button>
+                <button id="downloadEventsButton">Download Events as JSON</button>
+                <input type="file" id="uploadEventsButton" accept=".json" style="display: none;">
+                <label for="uploadEventsButton" class="upload-label">Upload Events</label>
+            </div>
         </div>
     </main>
-    
-    <script src="src/js/time.js"></script>
-    <script type="module" src="src/js/events.js"></script>
+
+    <script type="module" src="../src/js/week-editor.js"></script>
 </body>
 </html>

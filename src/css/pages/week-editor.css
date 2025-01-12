@@ -1,0 +1,156 @@
+:root {
+    --primary-bg-color: #2c3e50;
+    --header-bg-color: #34495e;
+    --highlight-color: #e67e22;
+    --text-color: #ecf0f1;
+    --event-bg-color: rgba(255, 255, 255, 0.2);
+    --odierno-bg-color: rgba(0, 255, 255, 0.2);
+    --border-radius: 10px;
+    --transition-speed: 0.3s;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+}
+
+/* Centering the Table */
+.center {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+}
+
+/* Table Styles */
+.editor-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--event-bg-color);
+}
+
+.table-header {
+    background-color: var(--header-bg-color);
+    color: var(--text-color);
+}
+
+.header-cell {
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top */
+    z-index: 10; /* Ensure it stays above other content */
+}
+
+.cell {
+    padding: 0; /* Remove padding to allow for scrolling */
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    vertical-align: top;
+    height: 150px; /* Set a fixed height for the cell */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.cell input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--border-radius);
+    transition: border-color var(--transition-speed);
+    background-color: var(--odierno-bg-color);
+    color: var(--text-color);
+}
+
+.input-row {
+    margin-top: 10px;
+}
+
+.input-row input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--border-radius);
+    transition: border-color var(--transition-speed);
+    background-color: var(--odierno-bg-color);
+    color: var(--text-color);
+}
+
+.input-row input:focus {
+    border-color: var(--highlight-color);
+    outline: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header .right {
+        margin-top: 10px;
+    }
+
+    .editor-table {
+        font-size: 14px;
+    }
+
+    .cell input {
+        width: 100%;
+    }
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: var(--highlight-color); /* Highlight color */
+    color: var(--text-color); /* Text color */
+    border: none; /* No border */
+    border-radius: var(--border-radius); /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    margin: 0 10px; /* Margin between buttons */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color var(--transition-speed), transform var(--transition-speed); /* Transition effects */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #d35400; /* Darker highlight color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Button Active Effect */
+button:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+}
+
+.upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--highlight-color);
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    margin-left: 10px;
+}

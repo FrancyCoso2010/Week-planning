@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/assets/logo.png">
+    <title>Orologio</title>
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/725bddfed0.js" crossorigin="anonymous"></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/clock.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <i class="fa-solid fa-bell"></i>
+            <h1 class="title">Orologio</h1>
+        </div>
+        <!--<nav class="middle">
+            <ul class="menu">
+                <li><a href="#">Prossimo suono</a></li>
+                <li id="toggleButton"><a href="#">Orario odierno</a></li>
+                <li><a href="#">Orario settimanale</a></li>
+            </ul>
+        </nav>-->
+        <div class="right">
+            <a href="#"><i class="fa-solid fa-gear"></i></a>
+            <a href="#"><i class="fa-solid fa-home"></i></a>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="center">
+            <h2 class="timenow"><span id="timenow">00:00:00</span></h2>
+            <div class="next">
+                <h1>Prossimo evento tra:</h1>
+                <h3 id="nextEventDisplay">Nothing...</h3>
+                <h2 class="counter" id="counterDisplay">00:00:00</h2>
+            </div>
+        </div>
+        <div class="eventsList">
+            <h3>Attività di oggi:</h3>
+            <div id="eventsListContainer"></div>
+        </div>
+    </main>
+    
+    <script src="src/js/time.js"></script>
+    <script type="module" src="src/js/attivita.js"></script>
+</body>
+</html>

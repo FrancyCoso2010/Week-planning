@@ -1,0 +1,318 @@
+{
+    "1": {
+        "0": {
+        "name": "Ingresso",
+        "start": "7:45",
+        "end": "7:50"
+        },
+        "1": {
+            "name": "Prima lezione",
+            "start": "7:50",
+            "end": "8:50"
+        },
+        "2": {
+            "name": "Seconda lezione",
+            "start": "8:50",
+            "end": "9:45"
+        },
+        "3": {
+            "name": "1° intervallo",
+            "start": "9:45",
+            "end": "9:55"
+        }, 
+        "4": { 
+            "name": "Terza lezione", 
+            "start": "9:55", 
+            "end": "10:50"
+        }, 
+        "5": { 
+            "name": "Quarta lezione", 
+            "start": "10:50", 
+            "end": "11:45"
+        }, 
+        "6": {
+           "name": "2° intervallo",
+           "start": "11:45",
+           "end": "11:55"
+        },
+        "7": {
+            "name": "Quinta lezione",
+            "start": "11:55",
+            "end": "12:50"
+        },
+        "8": {
+            "name": "Uscita",
+            "start": "12:50",
+            "end": "12:50",
+            "isFinished": true
+        }
+    },
+
+
+    "2": {
+        "0": {
+        "name": "Ingresso",
+        "start": "7:45",
+        "end": "7:50"
+        },
+        "1": {
+            "name": "Prima lezione",
+            "start": "7:50",
+            "end": "8:50"
+        },
+        "2": {
+            "name": "Seconda lezione",
+            "start": "8:50",
+            "end": "9:45"
+        },
+        "3": {
+            "name": "1° intervallo",
+            "start": "9:45",
+            "end": "9:55"
+        }, 
+        "4": { 
+            "name": "Terza lezione", 
+            "start": "9:55", 
+            "end": "10:50"
+        }, 
+        "5": { 
+            "name": "Quarta lezione", 
+            "start": "10:50", 
+            "end": "11:45"
+        }, 
+        "6": {
+           "name": "2° intervallo",
+           "start": "11:45",
+           "end": "11:55"
+        },
+        "7": {
+            "name": "Quinta lezione",
+            "start": "11:55",
+            "end": "12:50"
+        },
+        "8": {
+            "name": "Uscita",
+            "start": "12:50",
+            "end": "12:50",
+            "isFinished": true
+        }
+    },
+
+
+    "3": {
+        "0": {
+        "name": "Ingresso",
+        "start": "7:45",
+        "end": "7:50"
+        },
+        "1": {
+            "name": "Prima lezione",
+            "start": "7:50",
+            "end": "8:50"
+        },
+        "2": {
+            "name": "Seconda lezione",
+            "start": "8:50",
+            "end": "9:45"
+        },
+        "3": {
+            "name": "1° intervallo",
+            "start": "9:45",
+            "end": "9:55"
+        }, 
+        "4": { 
+            "name": "Terza lezione", 
+            "start": "9:55", 
+            "end": "10:50"
+        }, 
+        "5": { 
+            "name": "Quarta lezione", 
+            "start": "10:50", 
+            "end": "11:45"
+        }, 
+        "6": {
+           "name": "2° intervallo",
+           "start": "11:45",
+           "end": "11:55"
+        },
+        "7": {
+            "name": "Quinta lezione",
+            "start": "11:55",
+            "end": "12:50"
+        },
+        "8": {
+            "name": "Sesta lezione",
+            "start": "12:50",
+            "end": "13:50"
+        },
+        "9": {
+            "name": "Uscita",
+            "start": "13:50",
+            "end": "13:50",
+            "isFinished": true
+        }
+    },
+
+
+    "4": {
+        "0": {
+            "name": "Ingresso",
+            "start": "7:45",
+            "end": "7:50"
+        },
+        "1": {
+            "name": "Prima lezione",
+            "start": "7:50",
+            "end": "8:50"
+        },
+        "2": {
+            "name": "Seconda lezione",
+            "start": "8:50",
+            "end": "9:45"
+        },
+        "3": {
+            "name": "1° intervallo",
+            "start": "9:45",
+            "end": "9:55"
+        }, 
+        "4": { 
+            "name": "Terza lezione", 
+            "start": "9:55", 
+            "end": "10:50"
+        }, 
+        "5": { 
+            "name": "Quarta lezione", 
+            "start": "10:50", 
+            "end": "11:45"
+        }, 
+        "6": {
+           "name": "2° intervallo",
+           "start": "11:45",
+           "end": "11:55"
+        },
+        "7": {
+            "name": "Quinta lezione",
+            "start": "11:55",
+            "end": "12:50"
+        },
+        "8": {
+            "name": "Uscita",
+            "start": "12:50",
+            "end": "12:50",
+            "isFinished": true
+        }
+    },
+
+    "5": {
+        "0": {
+        "name": "Ingresso",
+        "start": "7:45",
+        "end": "7:50"
+        },
+        "1": {
+            "name": "Prima lezione",
+            "start": "7:50",
+            "end": "8:50"
+        },
+        "2": {
+            "name": "Seconda lezione",
+            "start": "8:50",
+            "end": "9:45"
+        },
+        "3": {
+            "name": "1° intervallo",
+            "start": "9:45",
+            "end": "9:55"
+        }, 
+        "4": { 
+            "name": "Terza lezione", 
+            "start": "9:55", 
+            "end": "10:50"
+        }, 
+        "5": { 
+            "name": "Quarta lezione", 
+            "start": "10:50", 
+            "end": "11:45"
+        }, 
+        "6": {
+           "name": "2° intervallo",
+           "start": "11:45",
+           "end": "11:55"
+        },
+        "7": {
+            "name": "Quinta lezione",
+            "start": "11:55",
+            "end": "12:50"
+        },
+        "8": {
+            "name": "Sesta lezione",
+            "start": "12:50",
+            "end": "13:50"
+        },
+        "9": {
+            "name": "Uscita",
+            "start": "13:50",
+            "end": "13:50",
+            "isFinished": true
+            
+        }
+    },
+
+    "6": {
+        "0": {
+        "name": "Ingresso",
+        "start": "7:45",
+        "end": "7:50"
+        },
+        "1": {
+            "name": "Prima lezione",
+            "start": "7:50",
+            "end": "8:50"
+        },
+        "2": {
+            "name": "Seconda lezione",
+            "start": "8:50",
+            "end": "9:45"
+        },
+        "3": {
+            "name": "1° intervallo",
+            "start": "9:45",
+            "end": "9:55"
+        }, 
+        "4": { 
+            "name": "Terza lezione", 
+            "start": "9:55", 
+            "end": "10:50"
+        }, 
+        "5": { 
+            "name": "Quarta lezione", 
+            "start": "10:50", 
+            "end": "11:45"
+        }, 
+        "6": {
+           "name": "2° intervallo",
+           "start": "11:45",
+           "end": "11:55"
+        },
+        "7": {
+            "name": "Quinta lezione",
+            "start": "11:55",
+            "end": "12:50"
+        },
+        "8": {
+            "name": "Uscita",
+            "start": "12:50",
+            "end": "12:50",
+            "isFinished": true
+        }
+    },
+
+    "0" :{
+        "0": {
+        "name": "Riposo",
+        "start": "00:00",
+        "end": "23:59",
+        "isFinished": true
+        }
+    }
+}
